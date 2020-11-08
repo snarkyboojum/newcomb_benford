@@ -1,0 +1,13 @@
+[package]
+name = "newcomb_benford"
+version = "0.1.0"
+authors = ["snarkyboojum <snarkyboojum@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.3"
+plotters = "0.3.0"
+csv = "1.1.4"
+serde = { version = "1.0.117", features = ["derive"] }
